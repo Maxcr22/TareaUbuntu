@@ -2,7 +2,7 @@ El primer que se realizo fue la instalación de la maquina virtual desde la pagi
 Luego al haber instalado el Ubuntu en la virtual box se hace la configuración de esta misma para la instalación de Node.js y express
 Los pasos siguientes para configurar e instalar lo necesario fueron:
 
-1-Instala los paquetes de nodejs con el comando: sudo apt nodejs 
+1-Instala los paquetes de nodejs con el comando: sudo apt install nodejs y luego lo actualiza con el comando: sudo apt update
 2-Instala el NVM con el comando: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 3-Usa wgety con el comando: wget -q0- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 4-Cierra y vuelva a abrir la terminal para que el sistema reconozca los cambios con el comando: source ~/.bashrc
@@ -10,3 +10,12 @@ Los pasos siguientes para configurar e instalar lo necesario fueron:
 6-Comprueba la versión del sistema: nvm ls
 7-Busca nuevas versiones: nvm ls-remote
 8-Ultimamente instala la ultima versión: nvm install [numero de versión]
+Luego se instala el PosTgreSQL con la instalación de la base de datos:
+1-Se instala el PostgreSQL: sudo apt-get install postgresql postgresql-contrib
+2-Instalación del PGadmin: sudo apt-get install pgadmin3
+3-Conexión por terminal: sudo -u postgres psql
+4-Salir de la terminal: \q
+5-Cambio de contraseña: alter user postgres with password '<new password>';
+
+
+
