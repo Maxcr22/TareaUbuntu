@@ -1,4 +1,4 @@
-El primer que se realizo fue la instalación de la maquina virtual desde la pagina oficila de Oracle(https://www.oracle.com/es/virtualization/technologies/vm/downloads/virtualbox-downloads.html?source=:ow:o:p:nav:mmddyyVirtualBoxHero_es&intcmp=:ow:o:p:nav:mmddyyVirtualBoxHero_es), junto a la imagen ISO de Ubuntu en su pagina oficial igualmente(https://releases.ubuntu.com/22.04/)
+El primer paso que se realizo fue la instalación de la maquina virtual desde la pagina oficila de Oracle(https://www.oracle.com/es/virtualization/technologies/vm/downloads/virtualbox-downloads.html?source=:ow:o:p:nav:mmddyyVirtualBoxHero_es&intcmp=:ow:o:p:nav:mmddyyVirtualBoxHero_es), junto a la imagen ISO de Ubuntu en su pagina oficial igualmente(https://releases.ubuntu.com/22.04/)
 Luego al haber instalado el Ubuntu en la virtual box se hace la configuración de esta misma para la instalación de Node.js y express
 Los pasos siguientes para configurar e instalar lo necesario fueron:
 1-Instala los paquetes de nodejs con el comando: sudo apt install nodejs y luego lo actualiza con el comando: sudo apt update
